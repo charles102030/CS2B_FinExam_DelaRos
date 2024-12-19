@@ -1,0 +1,9 @@
+const names = prompt("Enter names separated by commas:").split(",");
+const ages = prompt("Enter ages separated by commas:").split(",").map(Number)
+
+for (let i = 0; i < names.length; i++) {
+  restructuredArray.push([names[i], ages[i]]);
+}
+
+// Log to the console the restructured multidimensional array [name, age] per line.
+console.log(restructuredArray);
